@@ -628,13 +628,26 @@
             </dl>
           </div>
         </div>
+
+        
+        <div class="built" data-v-in data-v-stagger="80">
+          <div class="built__head">
+            <span class="v-label">Построено</span>
+            <p>Демо: объекты условные, на фото иллюстрации. На настоящем сайте здесь фото сданных объектов: тип и размер, когда сдали и сколько дней это заняло.</p>
+          </div>
+          <ul>
+            <li><figure><div class="fig"><img src="assets/house.webp" alt="Иллюстрация: Дом 8×9 с террасой · сдан в июле 2026 · 74 дня по договору" width="1200" height="900" loading="lazy"></div><figcaption><b>5.2</b><span>Дом 8×9 с террасой · сдан в июле 2026 · 74 дня по договору</span></figcaption></figure></li>
+            <li><figure><div class="fig"><img src="assets/interior.webp" alt="Иллюстрация: Баня 4×6 · сдана в июне 2026 · 28 дней по договору" width="1200" height="900" loading="lazy"></div><figcaption><b>5.3</b><span>Баня 4×6 · сдана в июне 2026 · 28 дней по договору</span></figcaption></figure></li>
+            <li><figure><div class="fig"><img src="assets/frame.webp" alt="Иллюстрация: Дом 6×6 · сдан в мае 2026 · 52 дня по договору" width="1200" height="900" loading="lazy"></div><figcaption><b>5.4</b><span>Дом 6×6 · сдан в мае 2026 · 52 дня по договору</span></figcaption></figure></li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <!-- ПОВТОР КНОПКИ -->
     <section class="midcta" data-v-act="flow" aria-label="Рассчитать смету">
       <div class="v-wrap" data-v-in data-v-stagger="70">
-        <p>Пять этапов прочитали. Дальше состав сметы, но считать можно уже сейчас: <b>от 42 000 ₽ за м²</b> по типовому проекту.</p>
+        <p>Пять этапов прочитали. Дальше отзывы и состав сметы, но считать можно уже сейчас: <b>от 42 000 ₽ за м²</b> по типовому проекту.</p>
         <div class="midcta__side">
           <span>Ответ в течение рабочего дня, с разбивкой по пяти этапам</span>
           <a class="v-btn" href="#raschet">Рассчитать смету</a>
@@ -642,6 +655,51 @@
       </div>
     </section>
 
+    <!-- ИНТЕРТИТР 6 · ОТЗЫВЫ -->
+    <section class="inter" data-v-act="flow" id="ch6" aria-label="Глава 6. Отзывы">
+      <div class="v-wrap inter__grid" data-v-in data-v-stagger="90">
+        <div class="inter__num" aria-hidden="true">0<em>6</em></div>
+        <div class="inter__text">
+          <span class="v-label">Глава шестая</span>
+          <h2 class="v-display">Отзывы</h2>
+          <p>Как есть, с карточки компании на Яндекс.Картах: имя, дата, оценка. Ссылка на карточку рядом, проверить можно за минуту.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ГЛАВА 6 · ОТЗЫВЫ С ЯНДЕКС.КАРТ. Слоты заполняются из карточки клиента; выдуманных отзывов здесь не бывает.
+         Если у клиента отзывов нет, удалить интертитр 6 и эту секцию целиком -->
+    <section class="v-section" data-v-act="flow" id="otzyvy" aria-label="Отзывы с Яндекс.Карт">
+      <div class="v-wrap reviews">
+        <div class="reviews__head" data-v-in data-v-stagger="60">
+          <div>
+            <span class="v-label">Яндекс.Карты</span>
+            <h2 class="v-display">Что пишут на Яндекс.Картах</h2>
+          </div>
+          <div class="reviews__rating">
+            <span class="reviews__num v-nums">4,8</span>
+            <span class="reviews__stars" data-r="4.8" role="img" aria-label="рейтинг 4,8 из 5"></span>
+            <span>37 отзывов · <a href="https://yandex.ru/maps/" rel="noopener">Читать все отзывы</a></span>
+          </div>
+        </div>
+        <ul class="reviews__list" data-v-in data-v-stagger="90">
+          <li class="reviews__item reviews__item--big">
+            <p class="reviews__text">«Смета в договоре не менялась, этапы принимали по актам. Фотоотчёт приходил после каждого этапа, платили только за принятое.»</p>
+            <p class="reviews__meta"><b>Сергей К.</b> · июль 2026 · <span class="reviews__stars reviews__stars--sm" data-r="5" role="img" aria-label="оценка 5 из 5"></span></p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__text">«Баню 4×6 поставили в срок по договору. Замечания записали в акт и устранили до подписания.»</p>
+            <p class="reviews__meta"><b>Андрей М.</b> · июнь 2026 · <span class="reviews__stars reviews__stars--sm" data-r="5" role="img" aria-label="оценка 5 из 5"></span></p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__text">«Было важно понимать, из чего состоит сумма: расчёт по статьям, марки материалов, этапы. Всё это дали до подписания.»</p>
+            <p class="reviews__meta"><b>Елена и Павел</b> · май 2026 · <span class="reviews__stars reviews__stars--sm" data-r="4" role="img" aria-label="оценка 4 из 5"></span></p>
+          </li>
+        </ul>
+        <p class="v-soft" style="margin-top:2rem;font-size:.9rem">Демо: отзывы, имена и оценки условные.</p>
+        <p class="reviews__note">Демо: оценка, число и тексты отзывов условные. На настоящем сайте они берутся с карточки на Яндекс.Картах без правок.</p>
+      </div>
+    </section>
 
     <!-- ЧТО ВХОДИТ В СМЕТУ -->
     <section class="v-section" data-v-act="flow" id="smeta" aria-label="Что входит в смету">
@@ -684,8 +742,14 @@
               <li><span>03</span><h3>Смета по пяти этапам</h3><p>За рабочий день после выезда. Каждый этап отдельной суммой, материалы с марками.</p></li>
               <li><span>04</span><h3>Договор</h3><p>Смета в приложении, сроки в календарных днях, оплата каждого этапа после акта.</p></li>
             </ul>
+            <p class="colophon__season"><b>Сезон 2026:</b> фундаменты заливаем до 15 ноября, дальше очередь на следующий сезон.</p>
           </div>
           <div class="colophon__meta" data-v-in data-v-stagger="80">
+            
+            <div class="crew">
+              <div class="crew__photo" role="img" aria-label="Инициалы прораба"><span>ИП</span></div>
+              <div class="crew__text"><b>Иван Петров (демо)</b><span>прораб, на объектах с 2014. Он же принимает этапы вместе с вами.</span></div>
+            </div>
             <!-- заполнить: в href телефон без пробелов, tel:+7XXXXXXXXXX; в тексте как удобно читать -->
             <a class="colophon__tel" href="tel:+70000000000">+7 (000) 000-00-00</a>
             <span>ул. Лесная, 7, Казань</span>
@@ -696,7 +760,7 @@
         </div>
         <footer class="colophon__foot">
           <span>Свой дом · строительство каркасных домов и бань · Казань</span>
-          <span>Демонстрационный сайт для портфолио</span>
+          <span>Демонстрационный сайт: данные, отзывы и цены условные</span>
         </footer>
       </div>
     </section>
@@ -755,7 +819,7 @@
   // На тёплой плашке (глава 2) и тёмной главе (4) фолио меняет схему.
   (function () {
     var chapters = Array.prototype.slice.call(document.querySelectorAll('[data-chapter]'));
-    var end = document.getElementById('smeta');
+    var end = document.getElementById('ch6');
     var folio = document.getElementById('folio'), fill = document.getElementById('folioFill');
     var dots = Array.prototype.slice.call(folio.querySelectorAll('.folio__dot'));
     var fm = document.getElementById('folioM'), fmText = document.getElementById('folioMText'), fmBar = document.getElementById('folioMBar');
